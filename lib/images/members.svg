@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="54px" height="62px" viewBox="0 0 54 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>members</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="-home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="home" transform="translate(-590.000000, -944.000000)" stroke="#FFFFFF" fill="#FFFFFF">
+            <g id="Group" transform="translate(0.000000, 470.000000)">
+                <g id="googlemaps">
+                    <g id="Group-4" transform="translate(0.000000, 405.000000)">
+                        <g id="Group-2" transform="translate(591.000000, 66.000000)">
+                            <path d="M0,64 C0,49.6871263 11.6405965,38.0842496 26,38.0842496 C40.3594035,38.0842496 52,49.6871263 52,64 L6.66133815e-15,64 Z M26.0108545,29.0902288 C19.0598553,29.0902288 13.4249572,23.4735897 13.4249572,16.5451144 C13.4249572,9.61663903 19.0598553,4 26.0108545,4 C32.9618536,4 38.5967518,9.61663903 38.5967518,16.5451144 C38.5967518,23.4735897 32.9618536,29.0902288 26.0108545,29.0902288 Z" id="members"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

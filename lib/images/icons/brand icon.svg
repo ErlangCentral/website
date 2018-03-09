@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="34px" height="38px" viewBox="0 0 34 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="styleguide" transform="translate(-90.000000, -695.000000)">
+            <g id="logo" transform="translate(101.200957, 715.000000) scale(-1, 1) translate(-101.200957, -715.000000) translate(79.000000, 695.000000)">
+                <g>
+                    <polygon id="Rectangle" fill="#D15675" transform="translate(26.537288, 18.932800) scale(-1, 1) rotate(-45.000000) translate(-26.537288, -18.932800) " points="34.6924603 2.28208259 34.6924603 35.583518 18.3821155 35.583518 18.3821155 18.661423"></polygon>
+                    <path d="M26.1628322,5.75129591 L9.10344828,22.9665072 L9.10344828,-5.68434189e-14 L26.1724138,-5.68434189e-14 L20.4827586,1.69642078e-13 L26.1628322,5.75129591 Z M13.8448276,5.74162679 C14.4732895,5.74162679 14.9827586,5.22750402 14.9827586,4.59330144 C14.9827586,3.95909885 14.4732895,3.44497608 13.8448276,3.44497608 C13.2163656,3.44497608 12.7068966,3.95909885 12.7068966,4.59330144 C12.7068966,5.22750402 13.2163656,5.74162679 13.8448276,5.74162679 Z" id="Combined-Shape" fill="#701B39"></path>
+                    <path d="M12.099948,10.766353 L0.682246625,10.766353 L6.39109732,5.0053554 L12.099948,10.766353 Z" id="Triangle-Copy-16" fill="#BC3057" transform="translate(6.391097, 7.406414) rotate(-225.000000) translate(-6.391097, -7.406414) "></path>
+                    <path d="M19.4146655,39.1135356 C17.9658304,39.1135356 16.8467372,39.1135356 16.057386,39.1135356 C16.057386,39.1162495 16.057386,37.9869341 16.057386,35.7255894 L19.4146655,39.1135356 Z" id="Triangle-Copy-18" fill="#BC3057" transform="translate(17.736026, 37.419565) rotate(-225.000000) translate(-17.736026, -37.419565) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

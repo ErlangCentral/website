@@ -1,0 +1,81 @@
+* {
+    outline: none;
+}
+
+html {
+    font-size: 14px;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 1em;
+    background: $nearWhite;
+    line-height: normal;
+}
+
+h1 {
+    font-size: 2.85714285714em;
+}
+
+h2 {
+    font-size: 2.14285714286em;
+}
+
+h3 {
+    font-size: 1.28571428571em;
+    line-height: 1.3em;
+}
+
+h1, h2, h3 {
+    font-family: 'NexaBold';
+}
+
+input {
+    font-family: 'Open Sans';
+}
+
+nav li {
+    font-family: 'NexaLight';
+    font-size: 0.85714285714em;
+}
+
+.text-wrapper li {
+    list-style-type: inherit;
+}
+
+footer li {
+    text-transform: uppercase;
+    font-family: 'NexaBold';
+}
+
+p {
+    line-height: normal;
+    font-family: 'Open Sans';
+}
+
+p.intro {
+    font-size: 1.14285714286em;
+}
+
+p.intro__small {
+    font-size: 0.71428571428em;
+}
+
+a {
+    @include setLinkAll {
+        color: inherit;
+        text-decoration: inherit;
+    }
+}
+
+button.link,
+a.link {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid $yellow;
+    padding-bottom: 10px;
+
+    @include setLinkAll {
+        color: $yellow;
+    }
+}

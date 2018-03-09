@@ -1,0 +1,43 @@
+.vacancy-post__content__company__assets {
+    padding-bottom: 20px;
+    margin: 0 30px 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid $lightGrey;
+
+    & > * {
+        margin-bottom: 20px;
+    }
+
+    @include mq(max-width, $tablet) {
+        margin: 0 0 30px;
+    }
+}
+
+.vacancy-post__content__company__social {
+    width: 50%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+
+    li {
+        float: left;
+    }
+}
+
+.vacancy-post__content__company__about {
+    a {
+        float: right;
+    }
+}
+
+.vacancy-post__content__company__img {
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}

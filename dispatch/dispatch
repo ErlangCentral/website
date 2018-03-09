@@ -1,0 +1,18 @@
+[
+  {new_job, ["add", "job"], controller_template, [
+    {template, "job_add.tpl"} ,
+    {acl, [
+            {insert, vacancy_post}
+        ]}
+  ]},
+  {new_blog, ["add", "blog"], controller_template, [
+    {template, "blog_add.tpl"},
+    {acl, [
+            {insert, blog_post}
+        ]}
+  ]},
+  {edit_profile, ["edit", "profile", id], controller_template, [
+    {template, "edit_profile.tpl"},
+    {acl, {update, person_profile}}
+  ]}
+].

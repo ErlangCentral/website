@@ -1,0 +1,90 @@
+.main-footer {
+    background: $black;
+    color: #ffffff;
+    min-height: 0px;
+}
+
+.main-footer__column {
+    float: left;
+    width: 40%;
+}
+
+
+.main-footer__social {
+    width: 30%;
+    padding: 0rem 1rem;
+    margin-bottom: 30px;
+    text-align: right;
+    float: left;
+
+    & + .main-footer__nav {
+        float: right;
+        width: 190px;
+    }
+}
+
+.main-footer__nav  {
+    float: left;
+    text-align: left;
+    width: 30%;
+    padding: 0rem 1rem;
+
+    a {
+        color: #ffffff;
+    }
+
+    li {
+        margin-bottom: 20px;
+    }
+}
+
+.main-footer__social__btn {
+    background: transparent;
+    visibility: hidden;
+
+    &:hover, &:hover:active, &:active, &:focus {
+        background: transparent;
+        outline: none;
+    }
+
+    i {
+        visibility: visible;
+    }
+}
+
+@include mq(max-width, $tablet) {
+    .main-footer__nav  {
+        float: none;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    .main-footer__column {
+        float: none;
+        width: 100%;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 40px;
+    }
+
+    .main-footer__social {
+        text-align: center;
+
+        & + .main-footer__nav {
+            float: none;
+        }
+    }
+}
+
+.main-footer__nav::-webkit-input-placeholder {
+    color: #ffffff;
+}
+.main-footer__nav:-moz-placeholder {
+    color: #ffffff;
+}
+.main-footer__nav::-moz-placeholder {
+    color: #ffffff;
+}
+.main-footer__nav:-ms-input-placeholder {
+    color: #ffffff;
+}

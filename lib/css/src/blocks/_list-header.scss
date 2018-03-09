@@ -1,0 +1,10 @@
+.list-header {
+	padding: 10px 0;
+	background: none;
+}
+
+.list-header__title {
+	@include mq(min-width, 800px) {
+		font-size: 32px;
+	}
+}

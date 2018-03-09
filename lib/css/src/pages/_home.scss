@@ -1,0 +1,182 @@
+h1.home__title {
+    max-width: 480px;
+    text-align: left;
+}
+
+.home__slogan {
+    color: white;
+    font-size: 1.4rem;
+    max-width: 480px;
+    line-height: 1.6em;
+}
+
+.home__call-to-actions {
+    display: flex;
+
+    a {
+        margin-right: 20px;
+    }
+}
+
+.home__user-group,
+.home__community {
+    display: flex;
+
+    @include mq(max-width, $tablet) {
+        flex-wrap: wrap;
+    }
+}
+
+.home__community__join {
+    background: white;
+    padding: 40px 20px;
+    text-align: center;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @include mq(max-width, $tablet) {
+        width: 100%;
+    }
+}
+
+.home__community__join__stat {
+    text-align: left;
+    color: #fff;
+    width: 50%;
+    float: left;
+    border-radius: 3px;
+    padding-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        float: left;
+        display: block;
+    }
+
+    > div {
+        width: 135px;
+        margin-left: 20px;
+    }
+
+    &:last-child {
+        padding-left: 0;
+        padding-right: 20%;
+
+        @include mq(max-width, $smallBreakpoint) {
+            padding-right: 0;
+            margin-top: 40px;
+        }
+    }
+
+    @include mq(max-width, $smallBreakpoint) {
+        float: none;
+        padding-left: 0;
+        width: 100%;
+    }
+}
+
+.home__community__join__stat__count {
+    color: $pink;
+    display: block;
+    font-size: 2rem;
+}
+
+.home-map {
+    min-width: 560px;
+    height: 600px;
+    width: 60%;
+
+    @include mq(max-width, $tablet) {
+        width: 100%;
+        min-width: 100%;
+        order: 2;
+    }
+}
+
+.home__jobs {
+    margin-bottom: 60px;
+
+    .list--vertical  {
+        margin-bottom: 30px;
+    }
+}
+
+.home__jobs,
+.home__recent-news {
+    padding-top: 60px;
+
+    h2 {
+        text-align: center;
+    }
+}
+
+.home__map-info {
+    background: $black;
+    //float: left;
+    width: 100%;
+    padding: 100px 0px;
+    display: flex;
+    margin-bottom: 30px;
+
+    @include mq(max-width, $tablet) {
+        margin-bottom: 40px;
+    }
+
+    @include mq(max-width, $smallBreakpoint) {
+        padding: 50px 0;
+        display: block;
+    }
+}
+
+.home__user-group {
+    background: #fff;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.home__user-group__supporters {
+    padding: 0px 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+.home__user-group__text__wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home__user-group__supporters__logo {
+    width: 100px;
+    min-width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin: 0 25px 20px 0;
+    background-size: cover;
+}
+
+.home {
+    margin-bottom: 0;
+
+    .main-footer {
+        position: unset;
+    }
+
+    .list__more-nav {
+        display: none;
+    }
+}
+
+.view-all__wrapper {
+    text-align: center;
+}

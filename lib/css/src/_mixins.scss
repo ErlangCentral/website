@@ -1,0 +1,31 @@
+@mixin setIcon($url, $size: cover, $border: none, $width: 31.3px, $height: 31.3px, $margin: 0 , $radius: 0%) {
+    background:url($url) no-repeat;
+    background-position: center center;
+    background-size: $size;
+    display: inline-block;
+    width: $width;
+    height: $height;
+    border-radius: $radius;
+    margin: $margin;
+    border: $border;
+}
+
+@mixin setSocialIcon($size: 100%, $color: #ffffff) {
+    border-radius: 50%;
+    background-color: $color;
+    background-size: $size;
+}
+
+// Sets the style only for pseudo selectors
+@mixin setPseudoAll {
+    &:hover, &:link, &:active, &:visited, &:focus, &:focus:active {
+        @content;
+    }
+}
+
+// Sets the style to pseudo selectors AND base default anchor
+@mixin setLinkAll {
+    &, &:hover, &:link, &:active, &:visited, &:focus, &:focus:active {
+        @content;
+    }
+}

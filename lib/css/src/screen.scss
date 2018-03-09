@@ -1,0 +1,27 @@
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/variables';
+@import 'variables.scss';
+
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/mixins';
+@import 'mixins.scss';
+
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/base';
+@import 'base.scss';
+
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/icons';
+@import 'icons.scss';
+
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/buttons';
+
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/form';
+
+@import '../../../../../modules/mod_ginger_base/lib/css/vendors/slick';
+@import '../../../../../modules/mod_ginger_base/lib/css/vendors/jquery.fancybox';
+
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/blocks/*';
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/layout/*';
+@import '../../../../../modules/mod_ginger_foundation/lib/css/src/pages/*';
+
+
+@import 'layout/*';
+@import 'pages/*';
+@import 'blocks/*';

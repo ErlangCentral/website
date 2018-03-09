@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="15px" viewBox="0 0 8 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title></title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="styleguide" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-521.000000, -1000.000000)" id="socialmedia" fill="#1F0810">
+            <g transform="translate(510.000000, 993.000000)">
+                <g id="icon/facebook">
+                    <path d="M18.7884615,7.10817308 L18.7884615,9.48798077 L17.3731971,9.48798077 C16.8563676,9.48798077 16.5078134,9.59615276 16.327524,9.8125 C16.1472347,10.0288472 16.0570913,10.3533632 16.0570913,10.7860577 L16.0570913,12.4897837 L18.6983173,12.4897837 L18.3467548,15.1580529 L16.0570913,15.1580529 L16.0570913,22 L13.2986779,22 L13.2986779,15.1580529 L11,15.1580529 L11,12.4897837 L13.2986779,12.4897837 L13.2986779,10.5246394 C13.2986779,9.40684537 13.6111748,8.53996702 14.2361779,7.92397837 C14.861181,7.30798971 15.6935044,7 16.7331731,7 C17.616591,7 18.3016803,7.03605733 18.7884615,7.10817308 Z" id=""></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

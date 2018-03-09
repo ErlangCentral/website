@@ -1,0 +1,51 @@
+// @font-face{
+//     font-family:"NexaLight";
+//     src:url("/lib/fonts/3001af72-71a4-40ce-a938-18a92e42d34d.eot?#iefix");
+//     src:url("/lib/fonts/3001af72-71a4-40ce-a938-18a92e42d34d.eot?#iefix") format("eot"),url("/lib/fonts/ed815298-43fd-424d-b694-5ca1a557da77.woff2") format("woff2"),url("/lib/fonts/52193e9a-60eb-4053-9041-ed2a0e1043d3.woff") format("woff"),url("/lib/fonts/fc56443e-696b-483c-ad53-169f885b2b43.ttf") format("truetype"),url("/lib/fonts/20d9a7b2-e926-4e6c-b789-ff7224a42c23.svg#20d9a7b2-e926-4e6c-b789-ff7224a42c23") format("svg");
+// }
+// @font-face{
+//     font-family:"NexaBold";
+//     src:url("/lib/fonts/3027cdb6-c36e-4b08-b30f-6ce7b4b43bd5.eot?#iefix");
+//     src:url("/lib/fonts/3027cdb6-c36e-4b08-b30f-6ce7b4b43bd5.eot?#iefix") format("eot"),url("/lib/fonts/0e5a6421-f5e4-4938-867d-6891e64d0aba.woff2") format("woff2"),url("Fonts/774fe857-54ab-41f8-b942-57c1dc6ee179.woff") format("woff"),url("Fonts/5aa360d1-3618-48dd-81e1-651827d6ce67.ttf") format("truetype"),url("Fonts/c90f3559-459d-40dd-badd-140a6d4035aa.svg#c90f3559-459d-40dd-badd-140a6d4035aa") format("svg");
+// }
+
+@font-face{
+    font-family: "NexaLight";
+    src: url("/lib/fonts/nexa-light.woff") format("woff");
+}
+@font-face{
+    font-family: "NexaBold";
+    src: url("/lib/fonts/nexa-bold.woff") format("woff");
+}
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i');
+
+
+// Colors
+$purpleRed: #701B39;
+$pink: #D15675;
+$pinkDarker: #BC3057;
+$white: #F9F9F9;
+$nearWhite: #F6F1F3;
+$black: #1F0810;
+$yellow: #F5A623;
+$lighterGrey: #d9d9d9;
+$lightGrey:#cbcbcb;
+$darkGrey: #3f3f3f;
+
+//Paths
+$iconPath: '/lib/images/icons/';
+$navbarPath: $iconPath+'navbar/';
+$buttonPath: $iconPath+'button/';
+$socialmediaPath: $iconPath+'socialmedia/';
+
+// MQ
+$wide: 1200px;
+$menu: 1025px;
+$desktop: 992px;
+$tablet: 768px;
+$phone: 480px;
+$iphone4: 320px;
+
+// props
+$box-shadow: 0px 0px 30px $darkGrey;
+$border-radius: 3px;

@@ -1,0 +1,19 @@
+.global-nav__actions__dropdown__block {
+    display: block;
+    position: absolute;
+    background: #F6F1F3;
+    padding: 20px 30px 30px;
+    right: 75px;
+    top: 84px;
+    width: 275px;
+    font-size: 1.16666666667em;
+    font-family: 'Open Sans';
+}
+
+.global-nav__actions__dropdown__block .form-group {
+    margin-bottom: 10px;
+
+    @include mq(max-width, $phone) {
+        margin-bottom: 30px;
+    }
+}

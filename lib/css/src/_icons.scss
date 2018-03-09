@@ -1,0 +1,123 @@
+// socialmedia
+.facebook__icon {
+    @include setIcon($socialmediaPath+'facebook.svg', $radius: 50%);
+    @include setSocialIcon(25%);
+}
+
+.github__icon {
+    @include setIcon($socialmediaPath+'github.svg', $radius: 50%);
+    @include setSocialIcon(40%);
+}
+
+.twitter__icon {
+    @include setIcon($socialmediaPath+'twitter.svg' , $radius: 50%);
+    @include setSocialIcon(40%);
+}
+// navbar
+.notification__icon {
+    @include setIcon($navbarPath+'notification.svg' , $radius: 50%);
+
+    &:hover {
+        @include setIcon($navbarPath+'notification_hover.svg' , $radius: 50%);
+    }
+}
+
+.search__icon {
+    @include setIcon($navbarPath+'search.svg', 57%, 1px solid $black , $radius: 50%);
+
+    &:hover {
+        @include setIcon($navbarPath+'search_hover.svg', 57%, 1px solid $black , $radius: 50%);
+    }
+}
+
+.user__icon {
+    @include setIcon($navbarPath+'user.svg' , 57%, $radius: 50%);
+}
+
+// button
+.jobs__icon {
+    @include setIcon($buttonPath+'all_jobs.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+.jobs__icon--active {
+    @include setIcon($buttonPath+'all_jobs_active.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+.chevron__icon {
+    @include setIcon($buttonPath+'chevron.svg', $width: 7.3px, $height: 12.3px, $margin: 0 10px 0 0);
+}
+
+.love__icon {
+    @include setIcon($buttonPath+'erlang_only_active.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+.love__icon--active {
+    @include setIcon($buttonPath+'erlang_only.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+.featured__icon {
+    @include setIcon($buttonPath+'featured.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+.featured__icon--active {
+    @include setIcon($buttonPath+'featured_active.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+.apply__icon {
+    @include setIcon($buttonPath+'instant_apply.svg', $width: 8.3px, $height: 15.3px, $margin: 0 10px 0 0);
+}
+
+.apply__icon--active {
+    @include setIcon($buttonPath+'instant_apply_active.svg', $width: 8.3px, $height: 15.3px, $margin: 0 10px 0 0);
+}
+
+.job-keywords__icon {
+    @include setIcon($buttonPath+'job_keywords.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+.location__icon {
+    @include setIcon($buttonPath+'location.svg', $width: 17.3px, $height: 16.3px, $margin: 0 10px 0 0, $size: 80%);
+}
+
+.marker__icon--small {
+    @include setIcon($buttonPath+'marker_small.svg', $width: 14.3px, $height: 16.3px, $margin: 0 10px 0 0);
+}
+
+
+
+
+// Icon font
+
+@font-face {
+  font-family: 'icomoon-site';
+  src: url('/lib/fonts/site-icon-font/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-site--"], [class*=" icon-site--"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon-site' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-site--link:before {
+  content: "\e901";
+}
+
+.icon-site--clock:before {
+  content: "\e900";
+}
+
+.icon-site--linkedin:before {
+  content: "\e902";
+}

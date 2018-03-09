@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="172px" height="196px" viewBox="0 0 172 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo">
+            <g>
+                <polygon id="-" fill="#D15675" transform="translate(139.923882, 98.923882) scale(-1, 1) rotate(-45.000000) translate(-139.923882, -98.923882) " points="182.923882 11.9238816 182.923882 185.923882 96.9238816 185.923882 96.9238816 97.505935"></polygon>
+                <path d="M137.949479,30.0505211 L48,120 L48,-5.68434189e-14 L138,-5.68434189e-14 L108,1.70530257e-13 L137.949479,30.0505211 Z M73,30 C76.3137085,30 79,27.3137085 79,24 C79,20.6862915 76.3137085,18 73,18 C69.6862915,18 67,20.6862915 67,24 C67,27.3137085 69.6862915,30 73,30 Z" id="Combined-Shape" fill="#701B39"></path>
+                <path d="M63.7997259,56.2541947 L3.59730039,56.2541947 L33.6985131,26.1529819 L63.7997259,56.2541947 Z" id="Triangle-Copy-16" fill="#BC3057" transform="translate(33.698513, 38.698513) rotate(-225.000000) translate(-33.698513, -38.698513) "></path>
+                <path d="M102.368236,204.368224 C94.7289238,204.368224 88.8282507,204.368224 84.6662172,204.368224 C84.6662172,204.382404 84.6662172,198.481731 84.6662172,186.666204 L102.368236,204.368224 Z" id="Triangle-Copy-18" fill="#BC3057" transform="translate(93.517227, 195.517227) rotate(-225.000000) translate(-93.517227, -195.517227) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

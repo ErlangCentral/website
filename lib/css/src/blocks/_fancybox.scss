@@ -1,0 +1,76 @@
+.fancybox-opened .fancybox-skin {
+    box-shadow: none;
+    border-radius: 0px;
+}
+
+.fancybox-skin {
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+}
+
+.fancybox__content {
+    display: none;
+}
+
+.fancybox-wrap {
+    @extend .text-wrapper;
+    min-width: 650px;
+    background: $nearWhite;
+
+    @include mq(max-width, $desktop) {
+        top: 100px !important;
+        padding: 40px 20px 80px;
+        min-width: 400px;
+        width: 400px !important;
+    }
+
+    @include mq(max-width, $phone) {
+        padding: 0px;
+        min-width: unset;
+        width: 100% !important;
+        left: 0px !important;
+    }
+}
+
+.fancybox-close {
+    order: 1;
+    align-self: flex-end;
+    border: none;
+    height: auto;
+    position: relative;
+    width: auto;
+    line-height: 0;
+    right: -50px;
+    top: -30px;
+
+    @include mq(max-width, $desktop) {
+        right: -25px;
+    }
+
+    @include mq(max-width, $desktop) {
+        right: 0px;
+        top: 15px;
+    }
+
+    @include setPseudoAll {
+        background: inherit;
+        color: $purpleRed;
+    }
+}
+
+.fancybox-inner {
+    min-width: 100%;
+
+    @include mq(max-width, $desktop) {
+        width: 100% !important;
+
+        label {
+            float: left;
+        }
+    }
+}
+
+.fancybox-outer {
+    order: 2;
+}

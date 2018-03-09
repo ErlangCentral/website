@@ -1,0 +1,29 @@
+.filter {
+    display: flex;
+    justify-content: center;
+}
+
+.filter__list {
+    li {
+        float: left;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+.filter__form {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 520px;
+
+    select {
+        width: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.filter__form__select {
+    flex-basis: 160px;
+}
