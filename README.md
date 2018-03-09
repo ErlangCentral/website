@@ -38,6 +38,16 @@ To get this site on your computer, you need take the following steps:
 Now wait until Zotonic has booted, and you should be able to view the website
 at http://erlangcentral.docker.test.
 
+Frontend assets
+---------------
+
+* Styling is done using [Sass](http://sass-lang.com). To watch the assets, and
+  rebuild them when they change, run:
+    ```bash
+    $ npm install
+    $ npm start
+    ```
+
 Learning more
 -------------
 
