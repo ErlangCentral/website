@@ -7,7 +7,11 @@ ErlangCentral.org runs on [Zotonic](http://zotonic.com), the Erlang web
 framework & CMS. The site is built with [Ginger](http://github.com/driebit/ginger),
 a set of templates and styles for Zotonic created by [Driebit](https://www.driebit.nl). 
 
-Contributions are very welcome!
+Contributing
+------------
+
+Contributions are very welcome! Please refer to [CONTRIBUTING.md](contributing.md)
+for more information.
 
 Getting started
 ---------------
