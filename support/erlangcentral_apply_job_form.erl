@@ -34,7 +34,7 @@ event(#submit{message={vacancy, [{id, Id}]}}, Context) ->
                   },
                   Context),
 
-    Text = "The application has been send.",
+    Text = "The application has been sent.",
     z_render:update("js-form-apply", Text, Context).
 
 get_email(Id, Context) ->
